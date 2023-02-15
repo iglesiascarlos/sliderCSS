@@ -4,16 +4,8 @@
     padding: 0;
 }
 
-/* Slider */
-/* #slider {
-    width: 100vw;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-} */
-
 body{
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .main-slider{
@@ -23,13 +15,13 @@ body{
   grid-template-rows: 500px;
 }
 
-.slides {
+.slides-box {
     width: 400%;
     display: flex;
     animation: slide 30s infinite;
 }
 
-.slider {
+.individual-slider {
     width: 25%;
 }
 
@@ -89,10 +81,10 @@ img {
     bottom: 50px;
     z-index: 99;
     left: 30px;
-}
-.switch {
     display: flex;
 }
+
+
 .switch > a {
     width: 10px;
     height: 10px;
@@ -110,6 +102,8 @@ img {
     position: relative;
     animation: on 30s infinite;
 }
+
+
 
 /* Animation */
 /* imágenes */
