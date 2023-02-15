@@ -18,7 +18,7 @@ body{
 .slides-box {
     width: 400%;
     display: flex;
-    animation: slide 30s infinite;
+    animation: slide 15s infinite;
 }
 
 .individual-slider {
@@ -53,7 +53,7 @@ img {
     height: 150px;
     position: relative;
     top: 300px;
-    animation: content-s 7.5s infinite;
+    animation: content-s 5s infinite;
 }
 .content-txt h2 {
     font-family: Intro;
@@ -100,7 +100,7 @@ img {
     border-radius: 50%;
     background: #f39c12;
     position: relative;
-    animation: on 30s infinite;
+    animation: on 15s infinite;
 }
 
 
@@ -112,16 +112,16 @@ img {
     100% {
         transform: translateX(0%);
     }
-    46% {
+    31% {
         transform: translateX(0%);
     }
-    50% {
+    35% {
         transform: translateX(-25%);
     }
-    71% {
+    61% {
         transform: translateX(-25%);
     }
-    75% {
+    65% {
         transform: translateX(-50%);
     }
     96% {
@@ -172,16 +172,16 @@ img {
     100% {
         transform: translateX(0);
     }
-    46% {
+    31% {
         transform: translateX(0);
     }
-    50% {
+    35% {
         transform: translateX(15px);
     }
-    71% {
+    61% {
         transform: translateX(15px);
     }
-    75% {
+    65% {
         transform: translateX(30px);
     }
     96% {
