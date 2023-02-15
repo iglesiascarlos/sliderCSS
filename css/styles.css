@@ -112,26 +112,20 @@ img {
     100% {
         transform: translateX(0%);
     }
-    21% {
+    46% {
         transform: translateX(0%);
     }
-    25% {
-        transform: translateX(-25%);
-    }
-    46% {
-        transform: translateX(-25%);
-    }
     50% {
-        transform: translateX(-50%);
+        transform: translateX(-25%);
     }
     71% {
-        transform: translateX(-50%);
+        transform: translateX(-25%);
     }
     75% {
-        transform: translateX(-75%);
+        transform: translateX(-50%);
     }
     96% {
-        transform: translateX(-75%);
+        transform: translateX(-50%);
     }
 }
 
@@ -178,25 +172,19 @@ img {
     100% {
         transform: translateX(0);
     }
-    21% {
+    46% {
         transform: translateX(0);
     }
-    25% {
-        transform: translateX(15px);
-    }
-    46% {
-        transform: translateX(15px);
-    }
     50% {
-        transform: translateX(30px);
+        transform: translateX(15px);
     }
     71% {
-        transform: translateX(30px);
+        transform: translateX(15px);
     }
     75% {
-        transform: translateX(45px);
+        transform: translateX(30px);
     }
     96% {
-        transform: translateX(45px);
+        transform: translateX(30px);
     }
 }
