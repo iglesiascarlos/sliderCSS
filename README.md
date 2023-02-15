@@ -1,2 +1,1 @@
-# Slider sin JS
-# sliderCSS
+# Slider solo CSS // Carlos Iglesias
