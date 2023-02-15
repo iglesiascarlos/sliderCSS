@@ -16,7 +16,7 @@ body{
   overflow-x: hidden;
 }
 
-#slider{
+.main-slider{
   position: relative;
   display: grid;
   grid-template-columns: 100vw;
@@ -28,6 +28,7 @@ body{
     display: flex;
     animation: slide 30s infinite;
 }
+
 .slider {
     width: 25%;
 }
@@ -62,7 +63,7 @@ img {
     top: 300px;
     animation: content-s 7.5s infinite;
 }
-.content-txt h1 {
+.content-txt h2 {
     font-family: Intro;
     font-size: 24px;
     color: #fff;
@@ -70,7 +71,7 @@ img {
     transform: translateX(30px);
     padding-bottom: 10px;
 }
-.content-txt h2 {
+.content-txt p {
     font-family: Quicksand;
     font-weight: normal;
     font-size: 14px;
